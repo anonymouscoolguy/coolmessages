@@ -1,32 +1,32 @@
-Getting Started
-========================================
+# Getting Started
 
 Enhance your terminal with cool and unnecessary messages 😏
 
-Inspiration
------------
-Coolmessages was inspired by the nostalgic program, `cowsay <https://en.wikipedia.org/wiki/Cowsay>`_.
+## Inspiration
+
+Coolmessages was inspired by the nostalgic program, [cowsay](https://en.wikipedia.org/wiki/Cowsay).
+
 We simply seek to create a program with more unnecessary, yet cool, characters. 😎
 
-Installation
-------------
-.. code-block:: python
+## Installation
 
-    pip install coolmessages
-   
-Basic Usage
------------
-The ``draw`` function accepts two arguments. The first, a valid character
+```
+pip install coolmessages
+```
+
+## Basic Usage
+
+The `draw` function accepts two arguments. The first, a valid character
 from the characters list. The second is **optional**, a message to print.
 If no message is passed, only the character will be printed.
 
-.. code-block:: python
-
-   coolmessages.draw(character, message="")
+```
+coolmessages.draw(character, message="")
+```
 
 Here is a working example with and without a message:
 
-.. code-block::
+```
 
     >>> import coolmessages
     >>> coolmessages.draw("peter_griffin", "I'm the most uncompetitive. So I win.")
@@ -94,3 +94,4 @@ Here is a working example with and without a message:
    ⠀⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠸⣿⡀⠀⠀⠀⣼⣿⡟⠀⠀⠀
    ⠀⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⢀⣴⠾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⢿⣧⠀⠀⠀⣿⣿⡇⠀⠀⠀
    ⠀⠻⠀⠙⠛⠓⠲⠶⠶⠶⠖⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠻⠗⠀⠀⠀⠸⠿⠀⠀⠘⠛⠛⠁⠀⠀⠀
+```
