@@ -11,7 +11,7 @@ setup(
   name='coolmessages',
   version='0.0.1',
   description='Enhance your terminal with cool and unnecessary messages 😏',
-  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
+  long_description=open('README.rst').read() + '\n\n' + open('CHANGELOG.md').read(),
   url='https://github.com/anonymouscoolguy/coolmessages',  
   author='anonymouscoolguy',
   author_email='anonymouscoolguy69@gmail.com',
