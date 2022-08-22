@@ -9,9 +9,10 @@ classifiers = [
  
 setup(
   name='coolmessages',
-  version='0.0.1',
+  version='0.0.3',
   description='Enhance your terminal with cool and unnecessary messages 😏',
-  long_description=open('README.rst').read() + '\n\n' + open('CHANGELOG.md').read(),
+  long_description_content_type='text/markdown',
+  long_description=open('README.md', encoding="utf-8").read(),
   url='https://github.com/anonymouscoolguy/coolmessages',  
   author='anonymouscoolguy',
   author_email='anonymouscoolguy69@gmail.com',
